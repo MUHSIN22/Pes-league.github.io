@@ -60,3 +60,17 @@ main button:hover{
     background:rgba(255,255,255,1);
     
 }
+@media only screen and (max-width: 900px) {
+    main h1{
+        margin: 0;
+        font-size: 3rem;
+        mix-blend-mode: overlay;
+        font-family: 'Oswald', sans-serif;
+        color: rgba(255, 255, 255, 0.8);
+        position: absolute;
+        right: 50%;
+        top: 50%;
+        transform: translate(50%,-60%);
+    
+    }
+  }
