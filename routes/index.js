@@ -23,7 +23,7 @@ router.get('/table',(req,res)=>{
     },
     {
       pos:3,
-      name:'Farseen FC',
+      name:'PSG',
       owner:'Farseen',
       tg:0,
       tp:0
