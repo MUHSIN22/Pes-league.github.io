@@ -1,0 +1,40 @@
+<section style="background-image: url(https://i.gadgets360cdn.com/large/pes-2020-ronaldinho_1567583264329.jpg);
+    height: 100vh;
+    background-position:right;
+    background-size: cover;
+    width: 100%;
+    padding-top: 2em">
+    <section class="text-center">
+        <div style="font-weight: bolder;
+    font-family:monospace;
+    color: azure;" class="row">
+            <h1>POINT TABLE</h1>
+        </div>
+    </section>
+    <section  class=" container mt-5">
+        <table class="table table-dark table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">POS</th>
+                    <th scope="col">Team</th>
+                    <th scope="col">Owner</th>
+                    <th scope="col">TG</th>
+                    <th scope="col">TP</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                {{#each team}}
+                <tr>
+                    <th scope="row">{{this.pos}}</th>
+                    <td>{{this.name}}</td>
+                    <td>{{this.owner}}</td>
+                    <td>{{this.tg}}</td>
+                    <td>{{this.tp}}</td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </section>
+</section>
+</section>

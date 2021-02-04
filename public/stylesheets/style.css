@@ -54,6 +54,7 @@ main button{
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     transition:  1s ease-in-out;
+    text-decoration: none;
 }
 main button:hover{
     background:rgba(255,255,255,1);
